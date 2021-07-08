@@ -27,14 +27,14 @@ https://www.springframework.org/schema/beans/spring-beans.xsd">
 	</bean>
 
 	<bean id="employee2" class="com.cognizant.springlearn.Employee">
-		<property name="id" value="102"></property>
-		<property name="name" value="Sunny"></property>
-		<property name="salary" value="20000"></property>
+		<property name="id" value="021"></property>
+		<property name="name" value="Saumya"></property>
+		<property name="salary" value="50000"></property>
 		<property name="department" ref="department2"></property>
 		<property name="permanent" value="Full-Time"></property>
 		<property name="dateOfBirth">
 			<bean factory-bean="dateFormat" factory-method="parse">
-				<constructor-arg value="26/04/1999" />
+				<constructor-arg value="21/08/1999" />
 			</bean>
 		</property>
 		<property name="skill" ref="skill2"></property>
@@ -42,8 +42,8 @@ https://www.springframework.org/schema/beans/spring-beans.xsd">
 	</bean>
 
 	<bean id="employee3" class="com.cognizant.springlearn.Employee">
-		<property name="id" value="103"></property>
-		<property name="name" value="Riyanshi" />
+		<property name="id" value="022"></property>
+		<property name="name" value="Sam" />
 		<property name="salary" value="75000" />
 		<property name="department" ref="department3"></property>
 		<property name="permanent" value="Full-Time"></property>
@@ -57,7 +57,7 @@ https://www.springframework.org/schema/beans/spring-beans.xsd">
         
 	<bean id="employee4" class="com.cognizant.springlearn.Employee">
 		<property name="id" value="104"></property>
-		<property name="name" value="Rohit"></property>
+		<property name="name" value="John"></property>
 		<property name="salary" value="35000"></property>
 		<property name="department" ref="department1"></property>
 		<property name="permanent" value="Full-Time"></property>
