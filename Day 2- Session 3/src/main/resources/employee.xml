@@ -12,8 +12,8 @@ https://www.springframework.org/schema/beans/spring-beans.xsd">
 	</bean>
 
 	<bean id="employee1" class="com.cognizant.springlearn.Employee">
-		<property name="id" value="101"></property>
-		<property name="name" value="Tushar"></property>
+		<property name="id" value="020"></property>
+		<property name="name" value="Tinny"></property>
 		<property name="salary" value="10500"></property>
 		<property name="department" ref="department1"></property>
 		<property name="permanent" value="Full-Time"></property>
